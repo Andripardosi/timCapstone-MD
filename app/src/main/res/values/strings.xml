@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CAPSTONEC23-PS350 -DetectTea</string>
+    <string name="selamatdatang">Selamat Datang</string>
+    <string name="masukanEmail">Masukkan Email Anda</string>
+    <string name="masukanpassword">Masukkan Password Anda</string>
+    <string name="lupapassword">Lupa Password?</string>
+    <string name="belumpunyaakun">Belum punya akun ?</string>
+    <string name="daftar1">Daftar</string>
+    <string name="Masuk">Masuk</string>
+    <string name="strbuatakun">Buat Akun</string>
+    <string name="strlabel">Ayo daftar untuk membantu anda merawat perkebunan teh anda</string>
+    <string name="masukanNama">Masukkan Nama Anda</string>
+    <string name="ulangiPassword">Ketik Ulang Password Anda</string>
+    <string name="sudahpunyakun">Sudah punya akun?</string>
+    <string name="login">Masuk</string>
+    <string name="strlabel1">Cek Kesehatan Tea mu dengan  App Detectea</string>
+    <string name="strlabel2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget commodo ex. Aliquam dapibus, odio vitae pulvinar hendrerit, massa turpis suscipit tellus, quis porttitor urna quam sed lacus. "</string>
+    <string name="mulai">Ayo Mulai!</string>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInterface.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/iv_shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="shape"
+        android:src="@drawable/shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="@string/strbuatakun"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_shape" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="243dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/poppinsregular"
+        android:gravity="center"
+        android:text="@string/strlabel"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+    <EditText
+        android:id="@+id/ed_nama"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="@string/masukanNama"
+        android:inputType="textPersonName"
+        android:paddingStart="14dp"
+        android:textColor="@color/grayColorText"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+    <EditText
+        android:id="@+id/ed_passwordregister"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="@string/masukanpassword"
+        android:inputType="textPassword"
+        android:paddingStart="14dp"
+        android:textColor="@color/grayColorText"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_emailregister" />
+
+    <EditText
+        android:id="@+id/ed_ulangipassword"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="@string/ulangiPassword"
+        android:inputType="textPassword"
+        android:paddingStart="14dp"
+        android:textColor="@color/grayColorText"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_passwordregister" />
+
+    <EditText
+        android:id="@+id/ed_emailregister"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="@string/masukanEmail"
+        android:inputType="textEmailAddress"
+        android:paddingStart="14dp"
+        android:textColor="@color/grayColorText"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_nama" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="284dp"
+        android:layout_height="48.69dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/Masuk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_ulangipassword" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/sudahpunyakun"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="104dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/login"
+        android:textColor="@color/green_100"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv3"
+        app:layout_constraintTop_toTopOf="@+id/tv3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
